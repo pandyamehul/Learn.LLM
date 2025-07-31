@@ -1,16 +1,10 @@
 # Learn AI - LLM
 
-- [Learn AI - LLM](#learn-ai---llm)
-  - [Week 1](#week-1)
-  - [Week 2](#week-2)
-
-## Week 1
-
-- Exercises and tasks related to LLMs, including API usage and model interactions.
-- Includes notebooks for practical exercises and code snippets for working with LLMs.
-- Environment setup for running LLMs locally or via APIs.
+- Exploration of various LLMs and their APIs such as OpenAI, Google Gemini, DeepSeek, and Anthropic's Claude.
+- Practical exercises and tasks to understand LLM capabilities and interactions.
+- Includes environment setup for running LLMs locally or via APIs.
 - Focus on understanding LLMs, their capabilities, and how to interact with them effectively.
 - Includes examples of using OpenAI's API and Ollama for model interactions.
 - Exercises include constructing API messages, handling responses, and streaming outputs from LLMs.
-
-## Week 2
+- Introduction to Gradio for building interactive UI applications with LLMs.
+- Practical exercises on creating Gradio apps to interact with LLMs.
