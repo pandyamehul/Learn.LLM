@@ -14,4 +14,3 @@
 - Exercises include constructing API messages, handling responses, and streaming outputs from LLMs.
 
 ## Week 2
-
