@@ -32,3 +32,17 @@ Day 3:
 - Build chat bots using Gradio UI and OpenAI's API.
 - Exercises on creating chat interfaces, handling user inputs, and displaying model responses.
 - Implementation of context management for maintaining conversation history.
+
+Day 4:
+
+- Implemented AI Chatbot with integration of Ollama and OpenAI models.
+- Intorcution and usage of tools in chatbot
+
+Day 5:
+
+- Multi-modal AI chatbots using OpenAI's DALL-E for image generation and speech models.
+- Integrated audio generation using OpenAI's speech model.
+- Exploration of agentic AI concepts, including breaking down complex tasks and using multiple LLMs for specialized tasks.
+- Introduction to building multi-modal chatbots that can handle both voice and image inputs.
+- Practical exercises on creating a multi-modal AI assistant for airline travel, integrating voice and image capabilities.
+- Includes examples of using OpenAI's API for image generation and audio synthesis.
