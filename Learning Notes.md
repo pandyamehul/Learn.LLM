@@ -3,6 +3,7 @@
 - [Learn AI - LLM](#learn-ai---llm)
   - [Week 1](#week-1)
   - [Week 2](#week-2)
+  - [Week 5](#week-5)
 
 ## Week 1
 
@@ -46,3 +47,11 @@ Day 5:
 - Introduction to building multi-modal chatbots that can handle both voice and image inputs.
 - Practical exercises on creating a multi-modal AI assistant for airline travel, integrating voice and image capabilities.
 - Includes examples of using OpenAI's API for image generation and audio synthesis.
+
+## Week 5
+
+Day 3:
+
+- Created a C++ code generator using OpenAI's API.
+- Integrated the code generator into a Gradio UI for interactive code generation.
+- Added functionality to compile and run the generated C++ code within the Gradio interface.
