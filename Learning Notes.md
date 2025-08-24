@@ -141,7 +141,7 @@ What you can now do
 
 Day 1:
 
-- Implemented simple, brute-force RAG (Retrieval-Augmented Generation) pipeline using OpenAI's API.
+- Implemented simple, brute-force RAG (Retrieval-Augmented Generation) OpenAI's API.
 - Integrated the RAG pipeline into a Gradio UI for interactive document retrieval and question answering.
 - Added functionality to handle user messages and maintain chat history.
 - Implemented a context-aware chat feature to improve response relevance.
@@ -149,4 +149,30 @@ Day 1:
 
 Day 2:
 
-- 
+- Implemented text chunking and embedding for document retrieval.
+- Integrated text chunking into the RAG for improved context handling.
+- Added a function to retrieve relevant document chunks based on user queries.
+
+Day 3:
+
+- Extended Day 2 activity
+- Converted documents into embeddings for improved retrieval.
+- Store chunk embeddings in a vector database for efficient similarity search using ChromaDB.
+- Added 2D and 3D visualization of vector embeddings using TSNE.
+
+Day 4-1:
+
+- Implemented RAG pipeline with LangChain.
+- Integrated document retrieval and response generation into a cohesive workflow.
+- Added support for multi-turn conversations and context management.
+- Integrated End to end flow using Gradio for user interaction.
+
+Day 4-2:
+
+- Implemented similar visualization techniques for the FAISS vector store.
+- Created 2D and 3D scatter plots to visualize document embeddings stored in the FAISS index.
+- Used t-SNE for dimensionality reduction and improved visualization clarity.
+
+Day 5:
+
+- Added debugging and troubleshooting steps for chromadb integration.
