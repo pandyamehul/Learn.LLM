@@ -1,13 +1,16 @@
 # Learn AI - LLM
 
 - [Learn AI - LLM](#learn-ai---llm)
-  - [Week 1](#week-1)
-  - [Week 2](#week-2)
-  - [Week 3](#week-3)
-  - [Week 4](#week-4)
-  - [Week 5](#week-5)
+  - [Week 1: Learn LLM, Explore Top models and Transformers](#week-1-learn-llm-explore-top-models-and-transformers)
+  - [Week 2 : Build Multimodel chatbot - LLM, Gradio \& Agents](#week-2--build-multimodel-chatbot---llm-gradio--agents)
+  - [Week 3 : Open Source Gen AI - Build Automated Solution with HuggingFace](#week-3--open-source-gen-ai---build-automated-solution-with-huggingface)
+  - [Week 4 : LLM Exploration and Evaluation, Code generation and Business task](#week-4--llm-exploration-and-evaluation-code-generation-and-business-task)
+  - [Week 5 : Retrieval-Augmented Generation (RAG)](#week-5--retrieval-augmented-generation-rag)
+  - [Week 6 : Transitioning to Frontier Model Training](#week-6--transitioning-to-frontier-model-training)
+  - [Week 7 : Advanced Training Techniques](#week-7--advanced-training-techniques)
+  - [Week 8: Deployment and Finalization](#week-8-deployment-and-finalization)
 
-## Week 1
+## Week 1: Learn LLM, Explore Top models and Transformers
 
 - Exercises and tasks related to LLMs, including API usage and model interactions.
 - Includes notebooks for practical exercises and code snippets for working with LLMs.
@@ -16,7 +19,7 @@
 - Includes examples of using OpenAI's API and Ollama for model interactions.
 - Exercises include constructing API messages, handling responses, and streaming outputs from LLMs.
 
-## Week 2
+## Week 2 : Build Multimodel chatbot - LLM, Gradio & Agents
 
 Day1:
 
@@ -52,13 +55,16 @@ Day 5:
 
 Additional End of week Exercise - week 2
 
+```txt
 - Now use everything you've learned from Week 2 to build a full prototype for the technical question/answerer you built in Week 1 Exercise.
 - This should include a Gradio UI, streaming, use of the system prompt to add expertise, and the ability to switch between models. Bonus points if you can demonstrate use of a tool!
 - If you feel bold, see if you can add audio input so you can talk to it, and have it respond with audio. ChatGPT or Claude can help you, or email me if you have questions.
 - There are so many commercial applications for this, from a language tutor, to a company onboarding solution, to a companion AI to a course (like this one!).
+```
 
-Challange to Explore:
+**Challange to Explore:**
 
+```txt
 - Add more Tools / Agents to enhance capabilities: Add another Tool to make a booking
 - Add an Agent that translates all responses to a different language and shows on the right hand side, using a different Frontier model
 - Add an Agent that can listen for Audio and convert it to Text
@@ -68,11 +74,13 @@ What you can now do
 - Describe transformers and explain key terminology
 - Confidently code with the APIs for GPT, Claude and Gemini
 - Build a multi-modal AI Assistant with UI, Tools, Agents
+```
 
-## Week 3
+## Week 3 : Open Source Gen AI - Build Automated Solution with HuggingFace 
 
 Challange to Explore:
 
+```txt
 Generating Synthetic Data
 
 - Write models that can generate datasets
@@ -84,8 +92,9 @@ What you can now do
 - Confidently code with Frontier Models
 - Build a multi-modal AI Assistant with Tools
 - Build an LLM solution combining frontier and open-source models
+```
 
-## Week 4
+## Week 4 : LLM Exploration and Evaluation, Code generation and Business task
 
 Day 1, 2:
 
@@ -118,8 +127,9 @@ Day 5:
 
 - To be updated
 
-Challange to Explore:
+**Challange to Explore:**
 
+```txt
 For this high performance coding solution
 
 - Try adding Gemini to the Closed Source mix
@@ -136,8 +146,13 @@ What you can now do
 - Code with Frontier Models including AI Assistants with Tools, and with open-source models with HuggingFace transformers
 - Confidently choose the right LLM for your project, backed by metrics
 - Build solutions to generate code with Frontier and open-source LLMs
+```
 
-## Week 5
+## Week 5 : Retrieval-Augmented Generation (RAG)
+
+- Master RAG to improve the accuracy of your solutions.
+- Become proficient with vector embeddings and explore vectors in popular open-source vector datastores.
+- Build a full business solution similar to real products on the market today.
 
 Day 1:
 
@@ -176,3 +191,50 @@ Day 4-2:
 Day 5:
 
 - Added debugging and troubleshooting steps for chromadb integration.
+
+**Challange to Explore:**
+
+```txt
+Create a Knowledge Worker on your information to boost productivity
+
+- Assemble all your files in 1 place; your personal Knowledge Base
+- Vectorize everything in Chroma - your vector datastore
+- Build a Conversational AI and ask questions!
+
+Advanced ideas to take it to the next level
+
+- If you use Google Workspace, use Google's API to read your own docs
+- If you use MS Office, use libraries to read Office docs
+- Harder - use libraries to connect to your email inbox, and Slack, and more!
+```
+
+## Week 6 : Transitioning to Frontier Model Training
+
+- Move from inference to training.
+- Fine-tune a Frontier model to solve a real business problem.
+- Build your own specialized model, marking a significant milestone in your AI journey.
+
+Day 1:
+
+- Fine tune LLM from inference to training, Finding and crafting the right dataset for fine tuning - sources and techniques. Data curation and preprocessing techiques for fine tuning. Optimizing training data - scrubbing, formatting, and augmenting data for better results. Evaluation of model centric vs. business centrics.
+
+Day 2:
+
+- Understand deployment pipeline for LLM and how to productionize applications.
+- When to use prompting, RAG and fine tuning.
+- Productionize LLM - best practices and strategies for deploying AI models at scale.
+- Optimize large dataset for model training - data curation strategies. Create balanced dataset for training.
+- Create and upload fine tuned dataset to HuggingFace.
+
+## Week 7 : Advanced Training Techniques
+
+- Dive into advanced training techniques like QLoRA fine-tuning.
+- Train an open-source model to outperform Frontier models for specific tasks.
+- Tackle challenging projects that push your skills to the next level.
+
+## Week 8: Deployment and Finalization
+
+- Deploy your commercial product to production with a polished UI.
+- Enhance capabilities using Agents.
+- Deliver your first productionized, agentized, fine-tuned LLM model.
+- Celebrate your mastery of AI and LLM engineering, ready for a new phase in your career.
