@@ -226,6 +226,11 @@ Day 2:
 - Optimize large dataset for model training - data curation strategies. Create balanced dataset for training.
 - Create and upload fine tuned dataset to HuggingFace.
 
+Day 3:
+
+- Understand and explore - Bag of words, Machine learning, baseline for NLP.
+- Understanding of Traditional Machine Learning techniques such as - Feature engineering & linear regression, Bag of words, word2vec (Linear regression and Random forest and SVR)
+
 ## Week 7 : Advanced Training Techniques
 
 - Dive into advanced training techniques like QLoRA fine-tuning.
