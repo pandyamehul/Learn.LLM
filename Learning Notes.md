@@ -6,9 +6,9 @@
   - [Week 3 : Open Source Gen AI - Build Automated Solution with HuggingFace](#week-3--open-source-gen-ai---build-automated-solution-with-huggingface)
   - [Week 4 : LLM Exploration and Evaluation, Code generation and Business task](#week-4--llm-exploration-and-evaluation-code-generation-and-business-task)
   - [Week 5 : Retrieval-Augmented Generation (RAG)](#week-5--retrieval-augmented-generation-rag)
-  - [Week 6 : Transitioning to Frontier Model Training](#week-6--transitioning-to-frontier-model-training)
-  - [Week 7 : Advanced Training Techniques](#week-7--advanced-training-techniques)
-  - [Week 8: Deployment and Finalization](#week-8-deployment-and-finalization)
+  - [Week 6 : Transitioning to Frontier Model Training \[4 Hr 20 min\]](#week-6--transitioning-to-frontier-model-training-4-hr-20-min)
+  - [Week 7 : Advanced Training Techniques \[3 Hr 40 min\]](#week-7--advanced-training-techniques-3-hr-40-min)
+  - [Week 8: Deployment and Finalization \[3 Hr 38 min\]](#week-8-deployment-and-finalization-3-hr-38-min)
 
 ## Week 1: Learn LLM, Explore Top models and Transformers
 
@@ -208,7 +208,7 @@ Advanced ideas to take it to the next level
 - Harder - use libraries to connect to your email inbox, and Slack, and more!
 ```
 
-## Week 6 : Transitioning to Frontier Model Training
+## Week 6 : Transitioning to Frontier Model Training [4 Hr 20 min]
 
 - Move from inference to training.
 - Fine-tune a Frontier model to solve a real business problem.
@@ -228,16 +228,51 @@ Day 2:
 
 Day 3:
 
-- Understand and explore - Bag of words, Machine learning, baseline for NLP.
+- Understand and explore - Bag of words, Machine learning - baseline for NLP.
 - Understanding of Traditional Machine Learning techniques such as - Feature engineering & linear regression, Bag of words, word2vec (Linear regression and Random forest and SVR)
+- Baseline model in Machine Learning - implementation of simple prediction functions, feature engineering techniques for product price prediction models.
+- Optimize LLM performance - advance feature engineering strategies, Linear regression for LLM fine tuning and base model comparison. Bag of words NLP, Implementing count vectorizatier for Text Analysis in ML.
+- Support vector regression vs Random forest regression for price prediction - ML face-off. Comparision of Traditional Models from Random to Random Forest.
 
-## Week 7 : Advanced Training Techniques
+Day 4:
+
+- Evaluating Frontier models (GPT-40-min, Claude-3.5-Sonnet) performance with baseline models.
+- Implemented price prediction model - Human vs AI models.
+- GPT-4-mini evaluation for price prediction / estimation task.
+- Claude-3.5-Sonnet evaluation for price prediction / estimation task.
+- Comparision of AI LLM Models output with traditional ML models for accuracy or prediction.
+
+Day 5:
+
+- Fine tuning LLM with Open AI- Preparing data, training and evaluating.
+- Three stage approach to fine tune Open AI model viz.:-
+  1. Preparing dataset in jsonl format for fine tuning - formatting and uploading to OpenAI.
+  2. Run Training - training loss and validation loss should decrease.
+  3. Evaluate result, tweak and repeat to fine tune model - using test dataset to evaluate model performance.
+- Understanding - how to prepare JSONL files for fine tuning LLMs.
+- Step by step understanding of launching GPS Fine tuning jobs on OpenAI API. Track training jobs, monitor progress and loss progress with weight and bias. Analyzing training and validation loss.
+- Challange - When model performance doesn't improve and Best Practices for optimization of fine tuning LLMs.
+
+## Week 7 : Advanced Training Techniques [3 Hr 40 min]
 
 - Dive into advanced training techniques like QLoRA fine-tuning.
 - Train an open-source model to outperform Frontier models for specific tasks.
 - Tackle challenging projects that push your skills to the next level.
 
-## Week 8: Deployment and Finalization
+Day 1:
+
+- Understand Parameters for efficient fine tuning - Low Rank Adaptation (LoRA), Quantized LoRA (QLoRA) & Hyperparameters.
+- Understanding of LoRA adapter technique for efficient fine tuning of large language models.
+- Understanding of QLoRA technique for fine tuning large language models with quantized weights.
+- Optimize LLM - R, Alpha and Target modules in QLoRA fine tuning., PEFT for LLMs with huggingface.
+- Quantize LLM - Reduce model size with 8-bit precision, NF4 - advance technique for 4-bit LLM quantization, Explore PEFT model - role of LORA adapter in LLM fine tuning.
+
+Day 2:
+
+- How to choose best base model for fine tuning - Factors to consider, Model size vs performance trade-off, Domain-specific models.
+- Exploration of Tokenizers for LLMs - LLAMA, QWEN and other LLM models. Tokenizing Llama 3.1 base model
+
+## Week 8: Deployment and Finalization [3 Hr 38 min]
 
 - Deploy your commercial product to production with a polished UI.
 - Enhance capabilities using Agents.
