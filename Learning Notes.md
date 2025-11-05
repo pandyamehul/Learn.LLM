@@ -264,13 +264,50 @@ Day 1:
 - Understand Parameters for efficient fine tuning - Low Rank Adaptation (LoRA), Quantized LoRA (QLoRA) & Hyperparameters.
 - Understanding of LoRA adapter technique for efficient fine tuning of large language models.
 - Understanding of QLoRA technique for fine tuning large language models with quantized weights.
-- Optimize LLM - R, Alpha and Target modules in QLoRA fine tuning., PEFT for LLMs with huggingface.
+- (Google Colab Session) Optimize LLM - R, Alpha and Target modules in QLoRA fine tuning., PEFT for LLMs with huggingface.
 - Quantize LLM - Reduce model size with 8-bit precision, NF4 - advance technique for 4-bit LLM quantization, Explore PEFT model - role of LORA adapter in LLM fine tuning.
 
 Day 2:
 
 - How to choose best base model for fine tuning - Factors to consider, Model size vs performance trade-off, Domain-specific models.
-- Exploration of Tokenizers for LLMs - LLAMA, QWEN and other LLM models. Tokenizing Llama 3.1 base model
+- Which Model to choose? Depends on number of parameters, Llama vs Qwen vs Phi vs Gemma.
+- Review model by analyzing HuggingFace leaderboard. [HuggingFace Leaderboard Open LLM](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- (Google Colab Session) Exploration of Tokenizers for LLMs - LLAMA, QWEN and other LLM models. Tokenizing Llama 3.1 base model.
+- (Google Colab Session) Optimize LLM Performance - loading and Tokenizing Llama 3.1 base model. Review quantization impact onn LLMs - analyze performance metrics and error.
+- (Google Colab Session) validate tokenizer performance with 4 bit and 8 bit quantized LLMs.
+
+Day 3:
+
+- Fine tuning open source model using QLoRA - Step by step implementation.
+- Understand the Hyperparameters used during training.
+- 5 hyperparameter QLoRA
+  - **Target Modules**: Train lower dimentioned metric and then apply to target module on selected layer in bigger model.
+  - **R (Rank)**: Low rank matrix to approximate weight update.
+  - **Alpha**: Scaling factor for weight update.
+  - **Quantization Bits**: Number of bits for model weight quantization. reduce weight size and memory usage to train bigger models.
+  - **Dropout**: Technique to prevent overfitting by randomly dropping units during training.
+- Understanding of epochs, batch sizes, Learning rate, Gradient accumulation and optimizers.
+- (Google Colab Session) setup open source LLM model training and fine tuning using QLoRA.
+
+Day 4:
+
+- (Google Colab Session) Understanding concept how we can train model keeping training cost low with high efficiency. (refer week 6 - day 2 light scenario)
+- (Google Colab Session) apply effective fine tuning techniques to optimize training cost and performance using smaller datasets. for qlora fine tuning.
+- Monitor the performance of fine tuning model and jobs on weights and biases.
+- Advance techniques, tools on weights and biases and savings model on HuggingFace hub.
+- Monitoring and managing training with weights and biases. Check model performance on weights and biases and also check model gets uploaded to hub repository.
+
+Day 5:
+
+- Understanding of 4 steps in LLM training from Forward pass to Optimization step.
+  - **Forward Pass**: Input data is passed through the model to generate predictions. Predict the next token in training data.
+  - **Loss Calculation**: The model's predictions are compared to the actual target values using a loss function to quantify the error.  How different was it to the true next token.
+  - **Backward Pass**: Gradients of the loss with respect to the model's parameters are computed using backpropagation. how much should we tweak parameters to do better next time the gradients.
+  - **Optimization Step**: The model's parameters are updated using an optimization algorithm (like Adam or SGD) to minimize the loss. Update model parameters using gradients to reduce loss.
+- Understanding QLoRA training process - forward pass, backward pass and loss calculation.
+- Understanding of softmax and cross-entropy loss function in LLM training.
+- Analysis and monitoring of fine tuning llm models on weights and biases. Compare model performance over different execution. Evaulate fine tuned training model metrics on weights and biases.
+- Visualize results - loss curves, accuracy metrics and more. Output would have better prediction.
 
 ## Week 8: Deployment and Finalization [3 Hr 38 min]
 
