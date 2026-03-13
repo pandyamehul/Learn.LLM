@@ -76,7 +76,7 @@ What you can now do
 - Build a multi-modal AI Assistant with UI, Tools, Agents
 ```
 
-## Week 3 : Open Source Gen AI - Build Automated Solution with HuggingFace 
+## Week 3 : Open Source Gen AI - Build Automated Solution with HuggingFace
 
 Challange to Explore:
 
