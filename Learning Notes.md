@@ -35,7 +35,7 @@ Day 2:
 
 Day 3:
 
-- Build chat bots using Gradio UI and OpenAI's API.
+- Build chat bots using Gradio UI with OpenAI's API integration.
 - Exercises on creating chat interfaces, handling user inputs, and displaying model responses.
 - Implementation of context management for maintaining conversation history.
 
