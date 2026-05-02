@@ -41,8 +41,12 @@ Day 3:
 
 Day 4:
 
+- Undersrtnading and implementing tools in AI chatbots.
 - Implemented AI Chatbot with integration of Ollama and OpenAI models.
 - Intorcution and usage of tools in chatbot
+- > Example of a tool that can perform a specific function, such as looking up information in a database or performing calculations, and how to integrate it into the chatbot's workflow.
+- Practical exercises on creating a chatbot that can call a tool to perform a specific task, such as looking up information in a database or performing calculations.
+- Includes examples of how to define a tool, integrate it into the chatbot's workflow, and handle the tool's output in the conversation.
 
 Day 5:
 
@@ -52,6 +56,13 @@ Day 5:
 - Introduction to building multi-modal chatbots that can handle both voice and image inputs.
 - Practical exercises on creating a multi-modal AI assistant for airline travel, integrating voice and image capabilities.
 - Includes examples of using OpenAI's API for image generation and audio synthesis.
+
+Day 5: Extra using OpenRouter.ai
+
+- Using OpenRouter.ai to access the latest models for generating SVG images.
+- Practical exercises on generating SVG images using OpenRouter.ai and integrating it into a Gradio UI
+- Includes examples of how to use OpenRouter.ai to generate SVG images based on text prompts and display them in a Gradio interface.
+- Key point: this is a very different task to image generation! The model needs to describe the image with lines and shapes.
 
 Additional End of week Exercise - week 2
 
